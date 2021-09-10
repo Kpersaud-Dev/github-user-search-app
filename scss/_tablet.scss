@@ -1,0 +1,74 @@
+@media only screen and (min-width: 768px) {
+  header {
+    padding-top: 3em;
+
+    .title {
+      font-weight: bold;
+      font-size: 2.5em;
+    }
+
+    .right-side {
+      .light-mode {
+        font-size: 1.25em;
+      }
+    }
+  }
+
+  body {
+    padding: 3em 5em;
+  }
+
+  .search-container {
+    .search-bar {
+      padding: 2em 0;
+    }
+
+    .search-button {
+      left: 41em;
+      bottom: 4.65em;
+      height: 4.25em;
+    }
+  }
+
+  .profile {
+    height: 65vh;
+
+    .profile-header {
+      padding-top: 2em;
+      figure {
+        img {
+          width: 7em;
+          height: 7em;
+        }
+      }
+
+      .profile-header-text {
+        padding-top: 1em;
+        padding-left: 2em;
+        line-height: 2em;
+
+        .profile-name {
+          font-size: 2em;
+        }
+      }
+    }
+
+    .bio {
+      padding: 2em 0;
+    }
+
+    .numbers-card {
+      .numbers {
+        .numbers-number {
+          font-size: 2em;
+        }
+      }
+    }
+
+    footer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding-top: 2em;
+    }
+  }
+}

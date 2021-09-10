@@ -1,0 +1,52 @@
+@media only screen and (min-width: 1024px) {
+  body {
+    width: 100%;
+  }
+
+  header {
+    .title {
+      font-size: 1em;
+    }
+  }
+
+  .profile {
+    .profile-header {
+      figure {
+        img {
+          width: 5em;
+          height: 5em;
+        }
+      }
+
+      .profile-header-text {
+        .profile-name {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+
+  .search-container {
+    .search-bar {
+      padding: 1em 0;
+      font-size: 1.5em;
+    }
+
+    .search-button {
+      padding: 0 2em;
+      height: 5.5em;
+      bottom: 5.55em;
+      left: 77em;
+      width: 8em;
+    }
+  }
+
+  .profile {
+    height: 100vh;
+    width: 100%;
+  }
+
+  footer {
+    padding-bottom: 2em;
+  }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d60ff32e4b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>GitHub User Search App</title>
+  </head>
+  <body>
+    <header>
+      <div class="title">devfinder</div>
+      <div class="right-side">
+        <div class="light-mode">LIGHT</div>
+        <i class="fas fa-sun"></i>
+      </div>
+    </header>
+    <div class="search-container">
+      <input
+        type="text"
+        class="search-bar"
+        placeholder="Search Github Username"
+      />
+      <button type="button" class="search-button">Search</button>
+    </div>
+
+    <div class="profile card">
+      <div class="profile-header">
+        <figure>
+          <img
+            src="img/prof-pic.png"
+            alt="Profile Picture"
+            class="profile-picture"
+          />
+        </figure>
+        <div class="profile-header-text">
+          <h2 class="profile-name">The Octocat</h2>
+          <span class="link">@octocat</span>
+          <span class="joined">Joined 25 Jan 2011</span>
+        </div>
+      </div>
+      <div class="bio">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+        id distinctio possimus debitis eaque perspiciatis esse.
+      </div>
+      <div class="numbers-card">
+        <div class="repos numbers">
+          <span class="numbers-header">Repos</span>
+          <div class="numbers-number" id="repos-number">8</div>
+        </div>
+        <div class="repos numbers">
+          <span class="numbers-header">Followers</span>
+          <div class="numbers-number" id="followers-number">3938</div>
+        </div>
+        <div class="repos numbers">
+          <span class="numbers-header">Following</span>
+          <div class="numbers-number" id="following-number">9</div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span class="footer-text">San Francisco</span>
+        </div>
+        <div class="footer-item">
+          <i class="fas fa-link"></i>
+          <span class="footer-text">https://github.blog</span>
+        </div>
+        <div class="footer-item">
+          <i class="fab fa-twitter"></i>
+          <span class="footer-text">Not Available</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
