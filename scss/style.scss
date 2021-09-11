@@ -13,8 +13,9 @@ body {
   padding: 1em;
 }
 
-header {
+.main-header {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 1em;
@@ -40,7 +41,7 @@ header {
     border-radius: 5%;
     background-color: #1f2a48;
     color: white;
-    padding: 1em;
+    padding: 1em 2em;
     border: none;
   }
 
@@ -120,6 +121,8 @@ header {
 footer {
   .footer-item {
     padding: 0.5em 0;
+    display: flex;
+    justify-content: space-around;
   }
 }
 

@@ -1,20 +1,37 @@
 @media only screen and (min-width: 1024px) {
   body {
     width: 100%;
+    padding: 5em 5em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
   }
 
-  header {
+  .main-header {
     .title {
       font-size: 1em;
+    }
+    .right-side {
+      padding-left: 70em;
     }
   }
 
   .profile {
+    height: 90vh;
+    width: 75%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     .profile-header {
+      display: flex;
+      align-self: flex-start;
+      padding-left: 3.75em;
       figure {
         img {
-          width: 5em;
-          height: 5em;
+          height: 10em;
+          width: 10em;
         }
       }
 
@@ -27,8 +44,10 @@
   }
 
   .search-container {
+    width: 75%;
+
     .search-bar {
-      padding: 1em 0;
+      padding: 1em 1em;
       font-size: 1.5em;
     }
 
@@ -36,17 +55,30 @@
       padding: 0 2em;
       height: 5.5em;
       bottom: 5.55em;
-      left: 77em;
+      left: 91em;
       width: 8em;
     }
   }
 
   .profile {
-    height: 100vh;
-    width: 100%;
+    .bio {
+      width: 60%;
+    }
+
+    .numbers-card {
+      padding: 5em 0;
+      width: 60%;
+    }
   }
 
   footer {
     padding-bottom: 2em;
+    .footer-item {
+      padding: 1em 2em;
+
+      .footer-text {
+        padding-left: 1em;
+      }
+    }
   }
 }
