@@ -1,4 +1,16 @@
 @media only screen and (min-width: 1024px) {
+  .profile {
+    height: 100vh;
+  }
+
+  .search-container {
+    .search-button {
+      left: 79em;
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
   body {
     width: 100%;
     padding: 5em 5em;

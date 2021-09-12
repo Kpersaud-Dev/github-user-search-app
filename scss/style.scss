@@ -123,8 +123,13 @@ footer {
     padding: 0.5em 0;
     display: flex;
     justify-content: space-around;
+
+    #blog {
+      color: white;
+    }
   }
 }
 
 @import "tablet";
 @import "desktop";
+@import "lightmode";
